@@ -1,0 +1,21 @@
+# Hackathon submission artifacts
+submission/
+submission.zip
+logs/
+log-hooks.zip
+
+# Local Codex/Claude hook setup
+.codex/
+.claude/
+tools/
+
+# Temporary files
+tmp/
+.DS_Store
+__pycache__/
+*.pyc
+
+# Local environment files
+.env
+.env.*
+!.env.example

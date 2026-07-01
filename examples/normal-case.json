@@ -1,0 +1,43 @@
+{
+  "case_id": "AP-NORMAL-001",
+  "control_objective": "Vendor payment must be supported by contract, invoice, approval, payment record, and supporting note.",
+  "required_evidence": [
+    "contract",
+    "approval",
+    "invoice",
+    "payment_record",
+    "supporting_note"
+  ],
+  "records": {
+    "contract": {
+      "present": true,
+      "amount": 12000000,
+      "date": "2026-05-01",
+      "counterparty": "ABC Vendor"
+    },
+    "approval": {
+      "present": true,
+      "status": "approved",
+      "amount": 12000000,
+      "date": "2026-05-03",
+      "approver": "Finance Lead"
+    },
+    "invoice": {
+      "present": true,
+      "status": "approved",
+      "amount": 12000000,
+      "date": "2026-05-04",
+      "counterparty": "ABC Vendor"
+    },
+    "payment_record": {
+      "present": true,
+      "amount": 12000000,
+      "date": "2026-05-07",
+      "counterparty": "ABC Vendor"
+    },
+    "supporting_note": {
+      "present": true,
+      "date": "2026-05-08"
+    }
+  }
+}

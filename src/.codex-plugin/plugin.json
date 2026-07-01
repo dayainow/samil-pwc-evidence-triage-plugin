@@ -1,0 +1,43 @@
+{
+  "name": "samil-pwc-internal-control-plugin",
+  "version": "0.1.0",
+  "description": "A Codex plugin that helps internal-control reviewers triage sample evidence packages, detect missing proof, compare key fields, and draft follow-up questions without issuing final audit conclusions.",
+  "author": {
+    "name": "AX Hackathon Team"
+  },
+  "license": "MIT",
+  "keywords": [
+    "internal-control",
+    "internal-audit",
+    "internal-accounting",
+    "evidence-review",
+    "voucher-review",
+    "approval-review",
+    "samil-pwc",
+    "compliance",
+    "audit-workpaper"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Samil PwC Evidence Triage",
+    "shortDescription": "Flags missing evidence and contract-voucher-approval mismatches before internal-control workpaper review.",
+    "longDescription": "Review-support workflow for internal audit and internal accounting management testing. The plugin helps a reviewer structure a transaction sample package, check whether expected evidence is present, compare contract, approval, invoice, voucher, and payment fields, flag missing or inconsistent records, and produce follow-up questions for a human reviewer. It does not decide whether a control is effective, deficient, or audit-reportable.",
+    "developerName": "AX Hackathon Team",
+    "category": "Compliance",
+    "capabilities": [
+      "Sample evidence checklist generation",
+      "Missing contract, approval, invoice, and voucher detection",
+      "Amount, counterparty, date, and approval-status comparison",
+      "Risk flag output with source field evidence",
+      "Human-review follow-up question drafting",
+      "Final audit judgment guardrails"
+    ],
+    "defaultPrompt": [
+      "Review this internal-control sample package for missing evidence.",
+      "Compare contract, approval, invoice, and voucher fields.",
+      "Draft follow-up questions for unresolved evidence gaps."
+    ],
+    "brandColor": "#2F6B4F"
+  }
+}

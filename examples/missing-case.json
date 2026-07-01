@@ -1,0 +1,32 @@
+{
+  "case_id": "AP-MISSING-001",
+  "control_objective": "Vendor payment must be supported by contract, invoice, approval, payment record, and supporting note.",
+  "required_evidence": [
+    "contract",
+    "approval",
+    "invoice",
+    "payment_record",
+    "supporting_note"
+  ],
+  "records": {
+    "contract": {
+      "present": true,
+      "amount": 8500000,
+      "date": "2026-04-01",
+      "counterparty": "Delta Services"
+    },
+    "invoice": {
+      "present": true,
+      "status": "approved",
+      "amount": 8500000,
+      "date": "2026-04-04",
+      "counterparty": "Delta Services"
+    },
+    "payment_record": {
+      "present": true,
+      "amount": 8500000,
+      "date": "2026-04-10",
+      "counterparty": "Delta Services"
+    }
+  }
+}
