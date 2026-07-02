@@ -1,0 +1,12 @@
+logs/*
+!logs/.gitkeep
+submission/
+submission.zip
+log-hooks.zip
+.DS_Store
+__pycache__/
+*.pyc
+.codex/
+.claude/
+tmp/
+

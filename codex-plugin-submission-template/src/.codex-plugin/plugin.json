@@ -1,0 +1,42 @@
+{
+  "name": "company-problem-review-plugin",
+  "version": "0.1.0",
+  "description": "A reusable Codex plugin template for solving a public, verifiable company problem with structured evidence review, risk flags, and human-review guardrails.",
+  "author": {
+    "name": "Your Name or Team"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codex-plugin",
+    "hackathon",
+    "company-problem",
+    "evidence-review",
+    "risk-triage",
+    "workflow-assistant"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Company Problem Review",
+    "shortDescription": "Turns public company-problem research into a structured review workflow with evidence checks and follow-up questions.",
+    "longDescription": "This plugin template helps teams build a Codex plugin for one selected company, using public and verifiable sources. It supports evidence inventory, missing-item detection, key-field comparison, risk flagging, and follow-up question drafting while keeping final business, legal, audit, or compliance judgments with the human reviewer.",
+    "developerName": "Your Name or Team",
+    "category": "Productivity",
+    "capabilities": [
+      "Public-source problem framing",
+      "Evidence checklist generation",
+      "Missing evidence detection",
+      "Record consistency comparison",
+      "Risk flag output with source evidence",
+      "Follow-up question drafting",
+      "Human-review guardrails"
+    ],
+    "defaultPrompt": [
+      "Review this company problem using the provided public sources.",
+      "Check the evidence package for missing items and inconsistent fields.",
+      "Generate risk flags and follow-up questions without making final judgments."
+    ],
+    "brandColor": "#2F6B4F"
+  }
+}
+

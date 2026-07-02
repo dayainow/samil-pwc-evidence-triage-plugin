@@ -1,0 +1,45 @@
+{
+  "case_id": "DEMO-NORMAL-001",
+  "problem_context": "A reviewer must verify whether one sample transaction has the required evidence package.",
+  "control_objective": "The sample must be supported by contract, approval, invoice, payment record, and supporting note.",
+  "required_evidence": [
+    "contract",
+    "approval",
+    "invoice",
+    "payment_record",
+    "supporting_note"
+  ],
+  "records": {
+    "contract": {
+      "present": true,
+      "amount": 12000000,
+      "date": "2026-05-01",
+      "counterparty": "ABC Vendor"
+    },
+    "approval": {
+      "present": true,
+      "status": "approved",
+      "amount": 12000000,
+      "date": "2026-05-03",
+      "approver": "Finance Lead"
+    },
+    "invoice": {
+      "present": true,
+      "status": "approved",
+      "amount": 12000000,
+      "date": "2026-05-04",
+      "counterparty": "ABC Vendor"
+    },
+    "payment_record": {
+      "present": true,
+      "amount": 12000000,
+      "date": "2026-05-07",
+      "counterparty": "ABC Vendor"
+    },
+    "supporting_note": {
+      "present": true,
+      "date": "2026-05-08"
+    }
+  }
+}
+

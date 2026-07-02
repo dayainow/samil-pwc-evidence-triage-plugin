@@ -1,0 +1,44 @@
+{
+  "case_id": "DEMO-INCONSISTENT-001",
+  "problem_context": "A reviewer must verify whether one sample transaction has the required evidence package.",
+  "control_objective": "The sample must be supported by contract, approval, invoice, payment record, and supporting note.",
+  "required_evidence": [
+    "contract",
+    "approval",
+    "invoice",
+    "payment_record",
+    "supporting_note"
+  ],
+  "records": {
+    "contract": {
+      "present": true,
+      "amount": 5000000,
+      "date": "2026-03-01",
+      "counterparty": "Korea Office Supply"
+    },
+    "approval": {
+      "present": true,
+      "status": "pending",
+      "amount": 5000000,
+      "date": "2026-03-08"
+    },
+    "invoice": {
+      "present": true,
+      "status": "approved",
+      "amount": 5700000,
+      "date": "2026-03-04",
+      "counterparty": "Korea Office Supply"
+    },
+    "payment_record": {
+      "present": true,
+      "amount": 5700000,
+      "date": "2026-03-05",
+      "counterparty": "KOS Co."
+    },
+    "supporting_note": {
+      "present": true,
+      "date": "2026-03-09"
+    }
+  }
+}
+
